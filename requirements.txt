@@ -1,0 +1,2 @@
+numpy
+ollama   # or the package you use to interface the LLM

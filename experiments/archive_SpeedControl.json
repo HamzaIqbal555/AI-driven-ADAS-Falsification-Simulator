@@ -1,0 +1,101 @@
+[
+  {
+    "scenario": {
+      "current_speed": 112.72746678033926,
+      "speed_limit": 120,
+      "weather": "rain"
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "current_speed": 33.48527479330988,
+      "speed_limit": 120,
+      "weather": "clear"
+    },
+    "fail_prob": 0.6,
+    "distance": -0.5
+  },
+  {
+    "scenario": {
+      "current_speed": 15.755613282877112,
+      "speed_limit": 80,
+      "weather": "clear"
+    },
+    "fail_prob": 0.8,
+    "distance": -0.7000000000000001
+  },
+  {
+    "scenario": {
+      "current_speed": 69.13071221985902,
+      "speed_limit": 120,
+      "weather": "clear"
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "current_speed": 97.2688672856943,
+      "speed_limit": 120,
+      "weather": "fog"
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "current_speed": 101.12475406877859,
+      "speed_limit": 120,
+      "weather": "clear"
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "current_speed": 37.15162744775231,
+      "speed_limit": 50,
+      "weather": "clear"
+    },
+    "fail_prob": 0.2,
+    "distance": -0.1
+  },
+  {
+    "scenario": {
+      "current_speed": 59.32765800027431,
+      "speed_limit": 80,
+      "weather": "fog"
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "current_speed": 84.94413849136474,
+      "speed_limit": 80,
+      "weather": "clear"
+    },
+    "fail_prob": 0.2,
+    "distance": -0.1
+  },
+  {
+    "scenario": {
+      "current_speed": 89.49501827920899,
+      "speed_limit": 80,
+      "weather": "rain"
+    },
+    "fail_prob": 0.2,
+    "distance": -0.1
+  },
+  {
+    "scenario": {
+      "current_speed": 77.30024132604032,
+      "speed_limit": 80,
+      "weather": "rain"
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  }
+]
