@@ -1,8 +1,26 @@
 [
   {
     "scenario": {
-      "car_speed": 83.55480168332272,
-      "pedestrian_distance": 8.114832782185566,
+      "car_speed": 65.0697318310837,
+      "pedestrian_distance": 18.612303413820204,
+      "road_condition": "dry"
+    },
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
+  },
+  {
+    "scenario": {
+      "car_speed": 5.11546471790127,
+      "pedestrian_distance": 48.16567963608256,
+      "road_condition": "dry"
+    },
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
+  },
+  {
+    "scenario": {
+      "car_speed": 63.931639761240774,
+      "pedestrian_distance": 14.868297369780127,
       "road_condition": "wet"
     },
     "fail_prob": 0.2,
@@ -10,26 +28,17 @@
   },
   {
     "scenario": {
-      "car_speed": 77.99451426529828,
-      "pedestrian_distance": 36.47956944842405,
-      "road_condition": "wet"
+      "car_speed": 83.49496421734396,
+      "pedestrian_distance": 17.516261034442948,
+      "road_condition": "dry"
     },
-    "fail_prob": 0.6,
-    "distance": -0.5
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
   },
   {
     "scenario": {
-      "car_speed": 14.954598282958568,
-      "pedestrian_distance": 22.505020872428734,
-      "road_condition": "wet"
-    },
-    "fail_prob": 0.8,
-    "distance": -0.7000000000000001
-  },
-  {
-    "scenario": {
-      "car_speed": 25.8938686593706,
-      "pedestrian_distance": 47.630128850011,
+      "car_speed": 6.056401342929076,
+      "pedestrian_distance": 5.643072966171453,
       "road_condition": "wet"
     },
     "fail_prob": 0.2,
@@ -37,26 +46,17 @@
   },
   {
     "scenario": {
-      "car_speed": 28.46193181340706,
-      "pedestrian_distance": 36.92899100752996,
-      "road_condition": "wet"
-    },
-    "fail_prob": 0.8,
-    "distance": -0.7000000000000001
-  },
-  {
-    "scenario": {
-      "car_speed": 47.959697544088755,
-      "pedestrian_distance": 14.678113747163778,
+      "car_speed": 49.767768701812365,
+      "pedestrian_distance": 12.442871253662886,
       "road_condition": "dry"
     },
-    "fail_prob": 0.8,
-    "distance": -0.7000000000000001
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
   },
   {
     "scenario": {
-      "car_speed": 49.60503761971659,
-      "pedestrian_distance": 24.350919288039453,
+      "car_speed": 34.941737507479516,
+      "pedestrian_distance": 36.23095070611945,
       "road_condition": "wet"
     },
     "fail_prob": 0.4,
@@ -64,17 +64,44 @@
   },
   {
     "scenario": {
-      "car_speed": 9.976315867336478,
-      "pedestrian_distance": 42.88341732654468,
-      "road_condition": "wet"
+      "car_speed": 10.661171504722688,
+      "pedestrian_distance": 21.949919135551152,
+      "road_condition": "dry"
+    },
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
+  },
+  {
+    "scenario": {
+      "car_speed": 68.51670720382604,
+      "pedestrian_distance": 16.07056218409479,
+      "road_condition": "dry"
+    },
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
+  },
+  {
+    "scenario": {
+      "car_speed": 62.82016886204151,
+      "pedestrian_distance": 14.066888250209534,
+      "road_condition": "dry"
     },
     "fail_prob": 0.8,
     "distance": -0.7000000000000001
   },
   {
     "scenario": {
-      "car_speed": 52.09691537184676,
-      "pedestrian_distance": 25.7329260062881,
+      "car_speed": 43.552639375940615,
+      "pedestrian_distance": 28.74361901100364,
+      "road_condition": "dry"
+    },
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
+  },
+  {
+    "scenario": {
+      "car_speed": 48.58853020747579,
+      "pedestrian_distance": 28.03381307445487,
       "road_condition": "dry"
     },
     "fail_prob": 0.2,
@@ -82,26 +109,8 @@
   },
   {
     "scenario": {
-      "car_speed": 47.11791071181567,
-      "pedestrian_distance": 23.116942461018958,
-      "road_condition": "dry"
-    },
-    "fail_prob": 0.4,
-    "distance": -0.30000000000000004
-  },
-  {
-    "scenario": {
-      "car_speed": 46.57790846543512,
-      "pedestrian_distance": 32.69068319443926,
-      "road_condition": "dry"
-    },
-    "fail_prob": 0.6,
-    "distance": -0.5
-  },
-  {
-    "scenario": {
-      "car_speed": 30.529029318291073,
-      "pedestrian_distance": 37.86417035514077,
+      "car_speed": 55.276704498879454,
+      "pedestrian_distance": 17.44133317314158,
       "road_condition": "wet"
     },
     "fail_prob": 0.4,
@@ -109,20 +118,20 @@
   },
   {
     "scenario": {
-      "car_speed": 17.156452110770168,
-      "pedestrian_distance": 36.56175873383268,
-      "road_condition": "dry"
-    },
-    "fail_prob": 0.4,
-    "distance": -0.30000000000000004
-  },
-  {
-    "scenario": {
-      "car_speed": 37.79164163781557,
-      "pedestrian_distance": 30.813723974219847,
+      "car_speed": 51.6176580109497,
+      "pedestrian_distance": 25.851712090151533,
       "road_condition": "wet"
     },
     "fail_prob": 1.0,
     "distance": -0.9
+  },
+  {
+    "scenario": {
+      "car_speed": 41.797323993099845,
+      "pedestrian_distance": 29.899751629654034,
+      "road_condition": "dry"
+    },
+    "fail_prob": 0.2,
+    "distance": -0.1
   }
 ]

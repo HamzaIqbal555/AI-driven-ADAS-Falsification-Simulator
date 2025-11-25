@@ -1,5 +1,6 @@
 import random
 import json
+from concurrent.futures import ThreadPoolExecutor
 from llm_simulator.simulator import run_scenario
 from falsification.distances import signed_distance
 from falsification.evolution import mutate, crossover
@@ -18,9 +19,6 @@ def scenario_braking():
 def scenario_lane_change():
     return {
         "car_speed": random.uniform(0, 120),
-        # "pedestrian_distance": None,  # not used
-        # "road_condition": None,       # not used
-        # # Example extra params (if needed)
         "lane_occupied": random.choice([True, False]),
         "indicator": random.choice([True, False])
     }
@@ -41,6 +39,16 @@ SCENARIO_FUNCS = [
 ]
 
 
+def evaluate_scenario(scenario):
+    """
+    Evaluate a single scenario and return its results.
+    """
+    failures, total = run_scenario(scenario, config.RUNS_PER_SCENARIO)
+    prob_fail = failures / total
+    dist = signed_distance(prob_fail, config.SAFE_UPPER)
+    return scenario, prob_fail, dist
+
+
 def main():
     all_archives = {}
 
@@ -51,14 +59,16 @@ def main():
 
         for gen in range(config.GENERATIONS):
             print(f"Generation {gen + 1}/{config.GENERATIONS} for {name}")
-            for scen in population:
-                failures, total = run_scenario(scen, config.RUNS_PER_SCENARIO)
-                prob_fail = failures / total
-                dist = signed_distance(prob_fail, config.SAFE_UPPER)
+
+            # Parallelize scenario evaluation
+            with ThreadPoolExecutor() as executor:
+                results = list(executor.map(evaluate_scenario, population))
+
+            for scenario, prob_fail, dist in results:
                 print(
-                    f"  Scenario {scen} → p_fail={prob_fail:.3f}, dist={dist:.3f}")
+                    f"  Scenario {scenario} → p_fail={prob_fail:.3f}, dist={dist:.3f}")
                 if dist < 0:
-                    add_to_archive(archive, scen, prob_fail, dist)
+                    add_to_archive(archive, scenario, prob_fail, dist)
 
             # Evolve for next generation
             new_pop = []

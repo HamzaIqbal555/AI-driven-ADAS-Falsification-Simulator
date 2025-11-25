@@ -1,7 +1,7 @@
 [
   {
     "scenario": {
-      "car_speed": 54.26526542235223,
+      "car_speed": 41.73583386978338,
       "lane_occupied": false,
       "indicator": true
     },
@@ -10,7 +10,16 @@
   },
   {
     "scenario": {
-      "car_speed": 76.53146077708485,
+      "car_speed": 53.84615137057542,
+      "lane_occupied": false,
+      "indicator": true
+    },
+    "fail_prob": 0.8,
+    "distance": -0.7000000000000001
+  },
+  {
+    "scenario": {
+      "car_speed": 82.29985310299233,
       "lane_occupied": false,
       "indicator": true
     },
@@ -19,25 +28,7 @@
   },
   {
     "scenario": {
-      "car_speed": 26.309316981242283,
-      "lane_occupied": false,
-      "indicator": true
-    },
-    "fail_prob": 0.4,
-    "distance": -0.30000000000000004
-  },
-  {
-    "scenario": {
-      "car_speed": 35.49258775007018,
-      "lane_occupied": false,
-      "indicator": true
-    },
-    "fail_prob": 0.8,
-    "distance": -0.7000000000000001
-  },
-  {
-    "scenario": {
-      "car_speed": 51.44312933740037,
+      "car_speed": 58.84656040699846,
       "lane_occupied": false,
       "indicator": false
     },
@@ -46,34 +37,7 @@
   },
   {
     "scenario": {
-      "car_speed": 42.57007681206069,
-      "lane_occupied": false,
-      "indicator": false
-    },
-    "fail_prob": 1.0,
-    "distance": -0.9
-  },
-  {
-    "scenario": {
-      "car_speed": 63.71748707563674,
-      "lane_occupied": false,
-      "indicator": true
-    },
-    "fail_prob": 0.2,
-    "distance": -0.1
-  },
-  {
-    "scenario": {
-      "car_speed": 50.12692509198,
-      "lane_occupied": false,
-      "indicator": true
-    },
-    "fail_prob": 0.8,
-    "distance": -0.7000000000000001
-  },
-  {
-    "scenario": {
-      "car_speed": 53.72588508885597,
+      "car_speed": 31.600115156885053,
       "lane_occupied": false,
       "indicator": true
     },
@@ -82,7 +46,43 @@
   },
   {
     "scenario": {
-      "car_speed": 45.792184376065805,
+      "car_speed": 66.96833924314006,
+      "lane_occupied": false,
+      "indicator": true
+    },
+    "fail_prob": 0.4,
+    "distance": -0.30000000000000004
+  },
+  {
+    "scenario": {
+      "car_speed": 62.52205947704735,
+      "lane_occupied": false,
+      "indicator": true
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "car_speed": 65.20696642932766,
+      "lane_occupied": false,
+      "indicator": false
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "car_speed": 39.2715701755707,
+      "lane_occupied": false,
+      "indicator": false
+    },
+    "fail_prob": 1.0,
+    "distance": -0.9
+  },
+  {
+    "scenario": {
+      "car_speed": 53.24165263047291,
       "lane_occupied": true,
       "indicator": true
     },
@@ -91,11 +91,20 @@
   },
   {
     "scenario": {
-      "car_speed": 48.7909712546977,
+      "car_speed": 50.19348660534635,
       "lane_occupied": false,
-      "indicator": false
+      "indicator": true
     },
-    "fail_prob": 1.0,
-    "distance": -0.9
+    "fail_prob": 0.6,
+    "distance": -0.5
+  },
+  {
+    "scenario": {
+      "car_speed": 52.82440431687653,
+      "lane_occupied": false,
+      "indicator": true
+    },
+    "fail_prob": 0.6,
+    "distance": -0.5
   }
 ]
