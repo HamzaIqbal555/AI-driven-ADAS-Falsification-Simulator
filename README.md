@@ -83,3 +83,7 @@ The falsification testing approach identifies scenarios where the LLM's decision
 2. **Trigger command** 
    ```bash
    python main.py
+
+3. **Run below command for updated graphical results** 
+   ```bash
+   python analysis/results.py
