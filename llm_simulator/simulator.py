@@ -1,5 +1,3 @@
-# llm_simulator/simulator.py
-
 from llm_simulator.llm_interface import query_llm
 
 

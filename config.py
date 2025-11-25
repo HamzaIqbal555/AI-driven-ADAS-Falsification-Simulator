@@ -1,5 +1,3 @@
-# config.py
-
 SAFE_UPPER = 0.1              # maximum acceptable failure probability
 # number of scenario candidates per generation (reduced)
 POP_SIZE = 5

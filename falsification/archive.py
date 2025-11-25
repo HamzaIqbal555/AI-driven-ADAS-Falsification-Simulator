@@ -1,4 +1,3 @@
-# falsification/archive.py
 
 def add_to_archive(archive, scenario, prob, dist):
     """

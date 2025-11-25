@@ -1,5 +1,3 @@
-# falsification/evolution.py
-
 import random
 import numpy as np
 

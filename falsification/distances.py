@@ -1,4 +1,3 @@
-# falsification/distances.py
 
 def signed_distance(fail_prob, safe_upper):
     """

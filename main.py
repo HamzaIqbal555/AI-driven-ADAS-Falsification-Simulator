@@ -1,5 +1,3 @@
-# falsification/runner.py
-
 import random
 import json
 from llm_simulator.simulator import run_scenario
